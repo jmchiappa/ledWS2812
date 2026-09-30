@@ -1,0 +1,11 @@
+
+Pulse	KEYWORD1
+begin	KEYWORD2
+start	KEYWORD2
+stop	KEYWORD2
+setDuration	KEYWORD2
+low	KEYWORD2
+high	KEYWORD2
+setState	KEYWORD2
+blink	KEYWORD2
+analog	KEYWORD2
