@@ -98,6 +98,10 @@ class LEDWS2812 : public Pin {
       color();
     }
 
+    void set(const Color &color_) {
+      set ( (Color)color_ );
+    }
+
     void color() {
       state = HIGH;
       _strip.setLEDcolor( _index , _color.red(), _color.green() , _color.blue() );
